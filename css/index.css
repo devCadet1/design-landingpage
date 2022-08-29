@@ -1,0 +1,113 @@
+*{
+    margin-top: 0;
+}
+
+
+ html{
+    background-image: url(../images/backcover.svg);
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-position: right;
+    margin-top: 0;
+    
+    
+}
+
+.main-div{
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items{
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+    position: absolute;
+    right: 35%;
+    top: 5%;
+    color: #0906c0;
+
+}
+
+.signin-btn{
+    display: block;
+    position: absolute;
+    right: 10%;
+    top: 5%;
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(45deg, #6D6AFE 0%, violet 80% );
+    color: #fff;
+
+}
+
+.intro-section{
+    display: flex;
+    flex: 2;
+
+}
+
+.left-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-section h1{
+    display: block;
+    position: absolute;
+    top: 25%;
+    font-size: 75px;
+    color: #0b0980;
+}
+
+.left-section h4{
+    display: block;
+    position: absolute;
+    top: 40%;
+    width: 15%;
+    line-height: 30px;
+    color: rgba(25, 13, 82, 0.685);
+    font-weight: 100;
+}
+
+.learn-more-btn{
+    display: block;
+    position: absolute;
+    bottom: 30%;
+    padding: 20px 40px;
+    border-radius: 50px;
+    font-size: 25px;
+    border: none;
+    background: linear-gradient(45deg, #6D6AFE 0%, violet 60% );
+    color: #fff;
+    font-weight: 600;
+}
+
+
+.intro-img{
+    display: block;
+    position: absolute;
+    top: 12%;
+    right: 50px;
+
+}
+
+.vector-img{
+    display: block;
+    position: absolute;
+    bottom: 20%;
+    right: 45%;
+}
+
+.vector-dot{
+    display: block;
+    position: absolute;
+    bottom: 280px;
+    right: 46%;
+}
